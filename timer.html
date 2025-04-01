@@ -10,10 +10,12 @@
             font-family: sans-serif;
             background-color: #f8f9fa;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             min-height: 100vh;
             margin: 0;
+
         }
         .container {
             background-color: #fff;
@@ -46,6 +48,10 @@
         .container-botoes button {
             margin-right: 10px;
         }
+        .contribuir {
+            position: absolute;
+            bottom: 10px;
+        }
     </style>
 </head>
 <body>
@@ -65,6 +71,9 @@
             <button id="botao-limpar-ranking" class="btn btn-danger">Limpar Ranking</button>
             <button id="botao-salvar-ranking" class="btn btn-secondary">Salvar Ranking (TXT)</button>
         </div>
+    </div>
+    <div class="contribuir">
+        <p>Contribua com o projeto: <a href="https://github.com/profRafaelRibas/Jogo-Timer.git">Jogo do Timer</a> </p>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script>
